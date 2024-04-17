@@ -1,0 +1,98 @@
+*{margin: 0;
+    padding: 0;
+    font-family: monospace;
+    }
+header{
+    display: flex;
+    padding: 10px ;
+    justify-content: center;
+    color: azure;
+    background: linear-gradient(to right, rgb(23, 83, 21), rgb(84, 173, 124), rgb(34, 112, 66))
+    
+}    
+body{
+    background:linear-gradient(to right, rgb(28, 66, 27), rgb(48, 87, 65), rgb(24, 54, 23))
+    
+
+}
+.section{
+    display: flex;
+    padding: 20px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.filme{
+    display: flex;
+    width:600px;
+    color: #ffffff;
+    padding: 30px;
+    border: solid 1px white;
+}
+.seção{
+    color: #ffffff;
+    display: flex;
+    padding: 20px 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: solid 1px white;
+}
+.atores{
+    display: flex;
+    width:600px;
+    color: #ffffff;
+    border: solid 1px white;
+}
+.seção2{
+    color: #ffffff;
+    display: flex;
+    padding: 20px 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: solid 1px white;
+}
+.seção3{
+    color: #ffffff;
+    display: flex;
+    padding: 20px 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: solid 1px white;
+}
+.img img{ 
+    width: 400px;
+}
+
+
+header a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: solid 1px white;
+}
+header ul{
+    list-style: none;
+}
+
+header {
+    padding: 10px 70px;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+footer{
+    color: #ffffff;
+    padding: 10px 70px;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+    background:linear-gradient(to right, rgb(14, 37, 13), rgb(56, 136, 92), rgb(23, 87, 50))
+}
